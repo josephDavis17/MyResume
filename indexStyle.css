@@ -1,0 +1,192 @@
+html {
+	height: 100%;	
+}
+body {	
+	background: linear-gradient(to top right, #181818, #696969);	
+}
+
+#upBox {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	height: 12%;
+	background-color: #669900;
+	box-shadow: 0 10px 18px #181818;
+}
+#heading {
+	height: 80%;
+	width: 30.5%;
+	display: inline-block;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 280%;
+	font-weight: 600;
+	color: white;
+	margin-left: 2%;
+	margin-top: 0.5%;
+	text-align: right;
+}
+#qMark {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 0.5%;
+	height: 80%;
+	width: 2%;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 280%;
+	font-weight: 600;
+	color: white;
+	animation: shake 2s infinite;
+	text-align: center;
+}
+
+@keyframes shake {	
+	0% {transform: rotate(-40deg);}
+	50% {transform: rotate(40deg);}
+	100% {transform: rotate(-40deg);}
+}
+
+#bBox {
+	display: inline-block;  
+	vertical-align: top;
+	margin-top: 0.8%;
+	height: 70%;
+	width: 60%;
+	margin-left: 4%;
+	text-align: right;
+	
+}
+
+#about {
+	height: 100%;
+	width: 16%;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 120%;
+	font-weight: 600;
+	background-color: #669900;
+	color: white;
+	border-radius: 10px;
+	transition: 0.3s;
+	border: none;
+}
+#about:hover {
+  background-color: white;
+  color: #669900;
+}
+#contact {
+	height: 100%;
+	width: 16%;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 120%;
+	font-weight: 600;
+	margin-left: 0.5%;
+	background-color: #669900;
+	color: white;
+	border-radius: 10px;
+	transition: 0.3s;
+	border: none;
+}
+#contact:hover {
+  background-color: white;
+  color: #669900;
+}
+#cert {
+	height: 100%;
+	width: 16%;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 120%;
+	font-weight: 600;
+	margin-left: 0.5%;
+	background-color: #669900;
+	color: white;
+	border-radius: 10px;
+	transition: 0.3s;
+	border: none;
+}
+#cert:hover {
+  background-color: white;
+  color: #669900;
+}
+#ling {
+	height: 100%;
+	width: 16%;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 120%;
+	font-weight: 600;
+	margin-left: 0.5%;
+	background-color: #669900;
+	color: white;
+	border-radius: 10px;
+	transition: 0.3s;
+	border: none;
+}
+#ling:hover {
+  background-color: white;
+  color: #669900;
+}
+
+
+#centerBox {
+	height: 60%;
+	width: 50%;	
+	display: inline-block;
+    	position: fixed;
+    	top: 7%;
+    	bottom: 0;
+    	left: 0;
+    	right: 0;
+	margin: auto;
+	background-color: #282828;
+	box-shadow: 20px 20px 20px #181818;
+	border-radius: 12px;
+}
+
+#me {
+	border: 5px solid #669900;
+	height: 56%;
+	width: 24%;
+	border-radius: 15px;
+	margin-top: 10%;
+	margin-left: 8%;
+	display: inline-block;
+}
+img {
+	height: 100%;
+	width: 100%;
+	border-radius: 10px;
+}
+
+#writer {
+	height: 36%;
+	width: 52%;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 18%;
+	margin-left: 6%;
+	text-align: center;
+}
+
+#writer h1 {
+  color: #fff;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  overflow: hidden; 
+  border-right: .15em solid #669900; 
+  white-space: nowrap; 
+  letter-spacing: .15em;
+  animation: 
+    typing 1.8s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%;}
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #669900 }
+}
+

@@ -1,0 +1,130 @@
+html {
+	height: 100%;	
+}
+body {	
+	background: linear-gradient(to top right, #181818, #696969);	
+}
+#heading {
+	color: #669900;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 40px;
+	font-weight: 600;
+	margin-top: 20px;
+	margin-left: 25px;	
+}
+#centerBox {
+	height: 500px;
+	width: 800px;	
+	display: inline-block;
+    	position: fixed;
+    	top: 0;
+    	bottom: 0;
+    	left: 0;
+    	right: 0;
+	margin: auto;
+	background-color: #282828;
+	box-shadow: 20px 20px 20px #181818;
+}
+
+#B1 {
+	margin-top: 50px;
+	margin-left: 40px;
+}
+#B2 {
+	margin-top: 50px;
+	margin-left: 40px;
+}
+#B3 {
+	margin-top: 50px;
+	margin-left: 40px;
+}
+
+#en {
+	display: inline-block;
+	width: 150px;
+  	height: 40px;
+  	padding: 5px;
+	color: white;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 25px;
+	text-align: right;
+}
+#pbar1 {
+	display: inline-block;
+	width: 60%;
+  	height: 40px;
+  	padding: 5px;
+	color: white;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 25px;
+	margin-left: 20px;
+	text-align: right;
+	background-color: #669900;
+	animation-name: Animate1;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+	position: static;
+}
+
+#hn {
+	display: inline-block;
+	width: 150px;
+  	height: 40px;
+  	padding: 5px;
+	color: white;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 25px;
+	text-align: right;
+}
+#pbar2 {
+	display: inline-block;
+	width: 60%;
+  	height: 40px;
+  	padding: 5px;
+	color: white;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 25px;
+	margin-left: 20px;
+	text-align: right;
+	background-color: #669900;
+	animation-name: Animate1;
+	animation-duration: 2.5s;
+	animation-iteration-count: 1;
+	position: static;
+}
+
+#ml {
+	display: inline-block;
+	width: 150px;
+  	height: 40px;
+  	padding: 5px;
+	color: white;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 25px;
+	text-align: right;
+}
+#pbar3 {
+	display: inline-block;
+	width: 40%;
+  	height: 40px;
+  	padding: 5px;
+	color: white;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 25px;
+	margin-left: 20px;
+	text-align: right;
+	background-color: #669900;
+	animation-name: Animate2;
+	animation-duration: 3s;
+	animation-iteration-count: 1;
+	position: static;
+}
+
+@keyframes Animate1 {
+	0% {width: 10%}
+	100% {width: 60%}
+}
+@keyframes Animate2 {
+	0% {width: 10%}
+	100% {width: 40%}
+}

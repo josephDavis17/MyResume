@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>		
+		<meta charset="utf-8" name="viewport" content= "width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="indexStyle.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<title>My Resume - Home</title>
+	</head>
+	
+	<body>
+		<div id="upBox">
+			<div id="heading">Wanna know more</div>
+			<div id="qMark">?</div>
+			<div id="bBox">
+				<button type="button" id="about">About Me</button>
+				<button type="button" id="contact">Contact</button>
+				<button type="button" id="cert">Certificates</button>
+				<button type="button" id="ling">Linguistics</button>
+			</div>			
+		</div>
+		<div id="centerBox">
+			<div id="me">
+				<img src="mypic.jpg">
+			</div>
+			<div id="writer">
+				<h1> Hi there!<br> I'm <font color="#669900">Joseph Davis.</font></h1>
+			</div>
+		</div>
+		
+		<script>
+			$(document).ready(function(){
+				$("#about").click(function(){
+					window.location.href="aboutMe.html";
+				});
+				$("#contact").click(function(){
+					window.location.href="contactMe.html";
+				});
+				$("#cert").click(function(){
+					window.location.href="cert.html";
+				});
+				$("#ling").click(function(){
+					window.location.href="langProf.html";
+				});
+			});
+		</script>
+
+	</body>
+
+</html>
