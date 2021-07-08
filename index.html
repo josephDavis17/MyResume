@@ -3,13 +3,44 @@
 	
 	<head>		
 		<meta charset="utf-8" name="viewport" content= "width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="indexStyle.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" href="./css/indexStyle.css">
 		<title>My Resume - Home</title>
 	</head>
 	
 	<body>
-		<div id="upBox">
+
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<a class="navbar-brand mx-3" href="./index.html" style="color: #669900;">Wanna know more ?</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+				<div class="navbar-nav">
+					<a class="nav-item nav-link active" href="./index.html">Home<span class="sr-only">(current)</span></a>
+					<a class="nav-item nav-link" href="./aboutMe.html">About Me</a>
+					<a class="nav-item nav-link" href="./edu.html">Education</a>
+					<a class="nav-item nav-link" href="./cert.html">Certificates</a>
+					<a class="nav-item nav-link" href="./langProf.html">Linguistics</a>
+				</div>
+			</div>
+		</nav>
+
+		<div class="container">
+			<div id="centerBox" class="row col-lg-8 col-md-12 col-sm-12 mx-auto">
+				<div id="me" class="col-lg-4 col-md-10 col-sm-10 mx-auto d-flex justify-content-center align-items-center">
+					<img src="./images/mypic.jpg">
+				</div>
+				<div id="writer" class="col-lg-8 col-md-10 col-sm-10 d-flex justify-content-center align-items-center">
+					<h1> Hi there!<br> I'm <font color="#669900">Joseph Davis.</font></h1>
+				</div>
+			</div>
+		</div>
+
+
+		
+
+		<!-- <div id="upBox">
 			<div id="heading">Wanna know more</div>
 			<div id="qMark">?</div>
 			<div id="bBox">
@@ -17,18 +48,18 @@
 				<button type="button" id="contact">Contact</button>
 				<button type="button" id="cert">Certificates</button>
 				<button type="button" id="ling">Linguistics</button>
-			</div>			
-		</div>
-		<div id="centerBox">
+			</div>			 
+		</div>-->
+		<!-- <div id="centerBox">
 			<div id="me">
-				<img src="mypic.jpg">
+				<img src="./images/mypic.jpg">
 			</div>
 			<div id="writer">
 				<h1> Hi there!<br> I'm <font color="#669900">Joseph Davis.</font></h1>
 			</div>
-		</div>
+		</div> -->
 		
-		<script>
+		<!-- <script>
 			$(document).ready(function(){
 				$("#about").click(function(){
 					window.location.href="aboutMe.html";
@@ -43,7 +74,11 @@
 					window.location.href="langProf.html";
 				});
 			});
-		</script>
+		</script> -->
+
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 	</body>
 
